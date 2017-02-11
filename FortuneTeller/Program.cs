@@ -123,7 +123,7 @@ namespace FortuneTeller
 
         if(birthMonth >=1 && birthMonth <= 4)
             {
-                retireMoney = 6500.00m;
+                retireMoney = 6500000.00m;
             } else if(birthMonth >= 5 && birthMonth <= 8)
             {
                 retireMoney = 25000000.00m;
