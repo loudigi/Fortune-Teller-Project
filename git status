@@ -1,0 +1,42 @@
+[1mdiff --git a/FortuneTeller/Program.cs b/FortuneTeller/Program.cs[m
+[1mindex 7d79496..33639af 100644[m
+[1m--- a/FortuneTeller/Program.cs[m
+[1m+++ b/FortuneTeller/Program.cs[m
+[36m@@ -123,7 +123,7 @@[m [mnamespace FortuneTeller[m
+ [m
+         if(birthMonth >=1 && birthMonth <= 4)[m
+             {[m
+[31m-                retireMoney = 6500.00m;[m
+[32m+[m[32m                retireMoney = 6500000.00m;[m
+             } else if(birthMonth >= 5 && birthMonth <= 8)[m
+             {[m
+                 retireMoney = 25000000.00m;[m
+[1mdiff --git a/FortuneTeller/bin/Debug/FortuneTeller.exe b/FortuneTeller/bin/Debug/FortuneTeller.exe[m
+[1mindex b748719..e8f63be 100644[m
+Binary files a/FortuneTeller/bin/Debug/FortuneTeller.exe and b/FortuneTeller/bin/Debug/FortuneTeller.exe differ
+[1mdiff --git a/FortuneTeller/bin/Debug/FortuneTeller.pdb b/FortuneTeller/bin/Debug/FortuneTeller.pdb[m
+[1mindex 08b6946..9dc4d75 100644[m
+Binary files a/FortuneTeller/bin/Debug/FortuneTeller.pdb and b/FortuneTeller/bin/Debug/FortuneTeller.pdb differ
+[1mdiff --git a/FortuneTeller/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache b/FortuneTeller/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache[m
+[1mindex 0731674..b4757eb 100644[m
+Binary files a/FortuneTeller/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache and b/FortuneTeller/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache differ
+[1mdiff --git a/FortuneTeller/obj/Debug/FortuneTeller.csproj.FileListAbsolute.txt b/FortuneTeller/obj/Debug/FortuneTeller.csproj.FileListAbsolute.txt[m
+[1mindex 9a860cc..7e2fb79 100644[m
+[1m--- a/FortuneTeller/obj/Debug/FortuneTeller.csproj.FileListAbsolute.txt[m
+[1m+++ b/FortuneTeller/obj/Debug/FortuneTeller.csproj.FileListAbsolute.txt[m
+[36m@@ -5,3 +5,9 @@[m [mC:\Users\Loudigi\Documents\Visual Studio 2015\Projects\Fortune-Teller-Project\Fo[m
+ C:\Users\Loudigi\Documents\Visual Studio 2015\Projects\Fortune-Teller-Project\FortuneTeller\bin\Debug\FortuneTeller.pdb[m
+ C:\Users\Loudigi\Documents\Visual Studio 2015\Projects\Fortune-Teller-Project\FortuneTeller\obj\Debug\FortuneTeller.exe[m
+ C:\Users\Loudigi\Documents\Visual Studio 2015\Projects\Fortune-Teller-Project\FortuneTeller\obj\Debug\FortuneTeller.pdb[m
+[32m+[m[32mC:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Fortune-Teller-Project\FortuneTeller\bin\Debug\FortuneTeller.exe.config[m
+[32m+[m[32mC:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Fortune-Teller-Project\FortuneTeller\obj\Debug\FortuneTeller.exe[m
+[32m+[m[32mC:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Fortune-Teller-Project\FortuneTeller\obj\Debug\FortuneTeller.pdb[m
+[32m+[m[32mC:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Fortune-Teller-Project\FortuneTeller\bin\Debug\FortuneTeller.exe[m
+[32m+[m[32mC:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Fortune-Teller-Project\FortuneTeller\bin\Debug\FortuneTeller.pdb[m
+[32m+[m[32mC:\Users\WeCanCodeIT\Documents\Visual Studio 2015\Projects\Fortune-Teller-Project\FortuneTeller\obj\Debug\FortuneTeller.csprojResolveAssemblyReference.cache[m
+[1mdiff --git a/FortuneTeller/obj/Debug/FortuneTeller.exe b/FortuneTeller/obj/Debug/FortuneTeller.exe[m
+[1mindex b748719..e8f63be 100644[m
+Binary files a/FortuneTeller/obj/Debug/FortuneTeller.exe and b/FortuneTeller/obj/Debug/FortuneTeller.exe differ
+[1mdiff --git a/FortuneTeller/obj/Debug/FortuneTeller.pdb b/FortuneTeller/obj/Debug/FortuneTeller.pdb[m
+[1mindex 08b6946..9dc4d75 100644[m
+Binary files a/FortuneTeller/obj/Debug/FortuneTeller.pdb and b/FortuneTeller/obj/Debug/FortuneTeller.pdb differ

@@ -84,8 +84,11 @@ namespace FortuneTeller
                     break;
                 case 2:
                     location = "Daytona";
-                    break;       
-               default:
+                    break;
+                case 3:
+                    location = "Lake Michigan";
+                    break;
+                default:
                     location = "Put-in-Bay";
                     break;
             }
@@ -136,9 +139,10 @@ namespace FortuneTeller
 
             }
 
-       
+
 
             // Output story.
+            Console.WriteLine("\n***** FOURTUNE *****\n");
             string formatMoney = String.Format("{0:C}", retireMoney); //$et money format.
             Console.WriteLine(string.Concat(firstName," ",lastName," will retire in ",retireYears," years with ",formatMoney, " in the bank, ", "a vacation home in ", location, " and a ", transportation, "!"));
             
